@@ -1,7 +1,8 @@
 
-
 const copyAndPush = (array, num) => {
-   return array.push(num)
+    let arrayCopy = array.slice();
+    arrayCopy.push(num);
+   return arrayCopy;
 };
-//this is returning the amount of the items in the array... not the content of the array... not certain why
+
 module.exports = { copyAndPush };
