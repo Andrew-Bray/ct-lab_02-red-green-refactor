@@ -1,7 +1,7 @@
 //create a function that returns the property of an object
 
-const getName = ( {name} ) => {
-    return name
+const getName = (object) => {
+    return object.name
 };
 
 module.exports = { getName };
